@@ -2,7 +2,33 @@ body {
   font-family: "Cinzel", serif;
 }
 
+h1,
+h2,
+h3 {
+  line-height: 40px;
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-family: "Cinzel", serif;
+  margin-top: 25px;
+}
 h1 {
+  font-size: 200%;
   font-family: "Birthstone Bounce", cursive;
-  font-size: 72px;
+}
+
+.author-photo-cont {
+  background-color: #9f998b;
+}
+
+.author-photo {
+  padding: 100px;
+}
+
+@media (max-width: 600px) {
+  .author-photo {
+    padding: 70px;
+  }
 }
