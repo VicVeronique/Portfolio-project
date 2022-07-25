@@ -2,20 +2,29 @@ body {
   font-family: "Cinzel", serif;
 }
 
-h1,
-h2,
-h3 {
-  line-height: 40px;
-  text-align: center;
+.text-dark {
+  color: #44483e !important;
 }
 
-h2,
-h3 {
-  font-family: "Cinzel", serif;
-  margin-top: 25px;
+.headline {
+  text-align: center;
+  color: #44483e;
+  margin-top: 40px;
 }
-h1 {
-  font-size: 200%;
+
+.hello,
+.profession {
+  font-family: "Cinzel", serif;
+  font-size: 35px;
+  line-height: 60px;
+}
+.profession {
+  padding: 20px;
+}
+
+.name {
+  font-size: 125px;
+  line-height: 120px;
   font-family: "Birthstone Bounce", cursive;
 }
 
@@ -27,8 +36,63 @@ h1 {
   padding: 100px;
 }
 
+@media (max-width: 900px) {
+  .headline {
+    color: #44483e;
+    margin-top: 100px;
+    margin-bottom: -5px;
+  }
+  .name {
+    font-size: 100px;
+    line-height: 80px;
+  }
+  .hello,
+  .profession {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .profession {
+    position: absolute;
+    color: white;
+  }
+  .author-photo {
+    padding: 135px;
+  }
+}
+
 @media (max-width: 600px) {
   .author-photo {
-    padding: 70px;
+    padding: 30px;
+    padding-top: 240px;
   }
+  .name {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .profession {
+    top: 300px;
+  }
+  .headline {
+    top: 110px;
+    position: absolute;
+    color: white;
+    text-align: center;
+  }
+}
+
+.work-intro {
+  font-size: 30px;
+  color: #6b675d;
+  font-family: "Cinzel", serif;
+  text-align: center;
+}
+
+.about-headline {
+  font-size: 125px;
+  line-height: 120px;
+  font-family: "Birthstone Bounce", cursive;
+  text-align: center;
+  color: #44483e;
+  margin-top: 40px;
 }
