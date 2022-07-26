@@ -4,6 +4,8 @@ p {
 
 h1 {
   text-align: center;
+  font-family: "Birthstone Bounce", cursive;
+  font-size: 40px;
 }
 
 button {
@@ -22,7 +24,6 @@ button {
 
 .hello,
 .profession {
-  font-family: "Cinzel", serif;
   font-size: 35px;
   line-height: 60px;
 }
@@ -37,18 +38,29 @@ button {
 }
 
 .author-photo-cont {
-  background-color: #9f998b;
+  background-color: #e1dfdc;
 }
 
 .author-photo {
   padding: 100px;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+.work-intro {
+  font-size: 50px;
+  color: #44483e;
+  text-align: center;
+  padding: 100px;
+  background-color: #f8f9fa;
 }
 
 @media (max-width: 900px) {
   .headline {
     color: #44483e;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: -5px;
+    position: absolule;
   }
   .name {
     font-size: 100px;
@@ -56,7 +68,7 @@ button {
   }
   .hello,
   .profession {
-    font-size: 35px;
+    font-size: 45px;
     line-height: 45px;
   }
   .profession {
@@ -64,39 +76,39 @@ button {
     color: white;
   }
   .author-photo {
-    padding: 135px;
+    padding: 155px;
   }
 }
 
 @media (max-width: 600px) {
-  .author-photo {
-    padding: 30px;
-    padding-top: 240px;
+  .headline {
+    top: 30px;
+    position: sticky;
+    color: #44483e;
+    text-align: center;
+    margin-top: 70px;
   }
+  .author-photo-cont {
+    background-color: #d7d6d4;
+  }
+  .author-photo {
+    padding: 60px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+
   .name {
     font-size: 80px;
     line-height: 80px;
   }
 
   .profession {
-    top: 300px;
+    top: 470px;
+    font-size: 35px;
   }
-  .headline {
-    top: 110px;
-    position: absolute;
-    color: white;
-    text-align: center;
+  .work-intro {
+    font-size: 40px;
   }
-}
-
-.work-intro {
-  font-size: 60px;
-  color: #44483e;
-  font-family: "Birthstone Bounce", cursive;
-  text-align: center;
-
-  padding: 100px;
-  background-color: #f8f9fa;
 }
 
 .about-headline {
