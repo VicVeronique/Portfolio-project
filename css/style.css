@@ -1,5 +1,6 @@
 p {
   text-align: center;
+  font-size: 20px;
 }
 
 h1 {
@@ -8,17 +9,29 @@ h1 {
   font-size: 40px;
 }
 
-button {
-  display: flex;
-  justify-content: center;
+.work-project-button {
+  display: block;
+  margin: 0 auto;
+  background-color: #e1dfdc;
+  padding: 20px;
+  border-radius: 35px;
+  border: 1px solid #4e5249;
+  box-shadow: 5px 10px 20px rgb(232, 230, 230);
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 30px;
+  transition: 200ms;
 }
-.text-dark {
-  color: #44483e !important;
+
+.work-project-button:hover {
+  background-color: white;
+  color: #4e5249;
 }
 
 .headline {
   text-align: center;
-  color: #44483e;
+  color: #4e5249;
   margin-top: 40px;
 }
 
@@ -42,14 +55,14 @@ button {
 }
 
 .author-photo {
-  padding: 100px;
+  padding: 120px;
   border-radius: 50%;
   opacity: 0.9;
 }
 
 .work-intro {
   font-size: 50px;
-  color: #44483e;
+  color: #4e5249;
   text-align: center;
   padding: 100px;
   background-color: #f8f9fa;
@@ -57,7 +70,7 @@ button {
 
 @media (max-width: 900px) {
   .headline {
-    color: #44483e;
+    color: #4e5249;
     margin-top: 80px;
     margin-bottom: -5px;
     position: absolule;
@@ -84,7 +97,7 @@ button {
   .headline {
     top: 30px;
     position: sticky;
-    color: #44483e;
+    color: #4e5249;
     text-align: center;
     margin-top: 70px;
   }
@@ -116,23 +129,54 @@ button {
   line-height: 120px;
   font-family: "Birthstone Bounce", cursive;
   text-align: center;
-  color: #44483e;
+  color: #4e5249;
   margin-top: 40px;
 }
 
 .work-project {
-  padding: 50px 50px;
+  padding: 70px 70px;
+}
+
+.project {
+  margin: 0 auto;
+  transition: transform 0.4s;
+  width: 75%;
+  display: block;
+}
+
+.project:hover {
+  transform: scale(1.2);
+}
+.work-project-name {
+  text-align: center;
+  font-family: "Birthstone Bounce", cursive;
+  font-size: 55px;
+  color: #4e5249;
+  line-height: 30px;
+}
+
+.work-project-descriprion {
+  padding: 40px;
+  color: #4e5249;
+  text-align: justify;
 }
 
 footer {
   margin: 50px auto;
   margin-top: 100px;
-  color: #44483e;
+  color: #4e5249;
   font-size: large;
 }
 
 .reference {
+  font-size: 17px;
+}
+.reference-link {
   text-decoration: none;
   font-weight: bold;
-  color: #44483e;
+  color: #4e5249;
+}
+
+.button-link {
+  text-decoration: none;
 }
