@@ -1,3 +1,10 @@
+:root {
+  --main-color: #4e5249;
+  --highlight-color: #f050a6;
+  --primary-color: #f8f9fa;
+  --secondary-color: #e1dfdc;
+}
+
 p {
   text-align: center;
   font-size: 20px;
@@ -12,10 +19,10 @@ h1 {
 .work-project-button {
   display: block;
   margin: 0 auto;
-  background-color: #e1dfdc;
+  background-color: var(--secondary-color);
   padding: 20px;
   border-radius: 35px;
-  border: 1px solid #4e5249;
+  border: 1px solid var(--main-color);
   box-shadow: 5px 10px 20px rgb(232, 230, 230);
   color: white;
   font-size: 20px;
@@ -26,12 +33,12 @@ h1 {
 
 .work-project-button:hover {
   background-color: white;
-  color: #4e5249;
+  color: var(--main-color);
 }
 
 .headline {
   text-align: center;
-  color: #4e5249;
+  color: var(--main-color);
   margin-top: 40px;
 }
 
@@ -48,11 +55,11 @@ h1 {
   font-size: 125px;
   line-height: 120px;
   font-family: "Birthstone Bounce", cursive;
-  color: rgb(240, 80, 166);
+  color: var(--highlight-color);
 }
 
 .author-photo-cont {
-  background-color: #e1dfdc;
+  background-color: var(--secondary-color);
 }
 
 .author-photo {
@@ -63,15 +70,15 @@ h1 {
 
 .work-intro {
   font-size: 50px;
-  color: #4e5249;
+  color: var(--main-color);
   text-align: center;
   padding: 100px;
-  background-color: #f8f9fa;
+  background-color: var(--primary-color);
 }
 
 @media (max-width: 900px) {
   .headline {
-    color: #4e5249;
+    color: var(--main-color);
     margin-top: 80px;
     margin-bottom: -5px;
     position: absolule;
@@ -98,12 +105,12 @@ h1 {
   .headline {
     top: 30px;
     position: sticky;
-    color: #4e5249;
+    color: var(--main-color);
     text-align: center;
     margin-top: 70px;
   }
   .author-photo-cont {
-    background-color: #d7d6d4;
+    background-color: var(--secondary-color);
   }
   .author-photo {
     padding: 60px;
@@ -130,7 +137,7 @@ h1 {
   line-height: 120px;
   font-family: "Birthstone Bounce", cursive;
   text-align: center;
-  color: #4e5249;
+  color: var(--highlight-color);
   margin-top: 40px;
 }
 
@@ -152,20 +159,20 @@ h1 {
   text-align: center;
   font-family: "Birthstone Bounce", cursive;
   font-size: 55px;
-  color: #4e5249;
+  color: var(--main-color);
   line-height: 30px;
 }
 
 .work-project-descriprion {
   padding: 40px;
-  color: #4e5249;
+  color: var(--main-color);
   text-align: justify;
 }
 
 footer {
   margin: 50px auto;
   margin-top: 100px;
-  color: #4e5249;
+  color: var(--main-color);
   font-size: large;
 }
 
@@ -175,7 +182,11 @@ footer {
 .reference-link {
   text-decoration: none;
   font-weight: bold;
-  color: #4e5249;
+  color: var(--highlight-color);
+}
+
+.reference-link:hover {
+  color: var(--main-color);
 }
 
 .button-link {
