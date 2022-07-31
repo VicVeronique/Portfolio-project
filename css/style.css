@@ -49,6 +49,8 @@ h1 {
 }
 .profession {
   padding: 20px;
+  text-align: center;
+  color: var(--main-color);
 }
 
 .name {
@@ -127,6 +129,7 @@ h1 {
     top: 470px;
     font-size: 35px;
   }
+
   .work-intro {
     font-size: 40px;
   }
@@ -159,7 +162,7 @@ h1 {
   text-align: center;
   font-family: "Birthstone Bounce", cursive;
   font-size: 55px;
-  color: var(--main-color);
+  color: var(--highlight-color);
   line-height: 30px;
 }
 
@@ -191,4 +194,18 @@ footer {
 
 .button-link {
   text-decoration: none;
+}
+
+.about-headline-container {
+  margin: 50px 50px;
+}
+
+.about-section {
+  background-color: var(--secondary-color);
+  padding: 75px 50px;
+}
+
+.about-section-container {
+  padding-left: 25px;
+  padding-right: 25px;
 }
