@@ -209,3 +209,17 @@ footer {
   padding-left: 25px;
   padding-right: 25px;
 }
+
+.contact-container {
+  font-size: 55px;
+  color: var(--highlight-color);
+  line-height: 30px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+
+  font-size: 60px;
+  color: var(--main-color);
+}
