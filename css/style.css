@@ -211,7 +211,7 @@ footer {
 }
 
 .contact-container {
-  font-size: 65px;
+  font-size: 85px;
   color: var(--highlight-color);
   line-height: 70px;
   margin-top: 30px;
@@ -221,8 +221,39 @@ footer {
 .icon {
   font-size: 60px;
   color: var(--main-color);
+  margin-bottom: 25px;
+  padding: 0 40px;
+  text-align: center;
 }
 
 .contact-inside {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .contact-inside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.contact-link {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.contact-link:hover {
+  color: var(--main-color);
+}
+
+.navbar-brand {
+  color: var(--main-color) !important;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  color: var(--main-color) !important;
+  font-weight: bold;
 }
