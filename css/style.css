@@ -211,15 +211,18 @@ footer {
 }
 
 .contact-container {
-  font-size: 55px;
+  font-size: 65px;
   color: var(--highlight-color);
-  line-height: 30px;
+  line-height: 70px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .icon {
-  display: flex;
-  justify-content: center;
-
   font-size: 60px;
   color: var(--main-color);
+}
+
+.contact-inside {
+  text-align: center;
 }
