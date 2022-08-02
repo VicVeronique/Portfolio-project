@@ -16,65 +16,39 @@ h1 {
   font-size: 40px;
 }
 
-.work-project-button {
-  display: block;
-  margin: 0 auto;
-  background-color: var(--secondary-color);
-  padding: 20px;
-  border-radius: 35px;
-  border: 1px solid var(--main-color);
-  box-shadow: 5px 10px 20px rgb(232, 230, 230);
-  color: white;
-  font-size: 20px;
-  text-decoration: none;
-  line-height: 30px;
-  transition: 200ms;
-}
-
-.work-project-button:hover {
-  background-color: white;
-  color: var(--main-color);
-}
-
 .headline {
   text-align: center;
   color: var(--main-color);
-  margin-top: 40px;
-}
-
-.hello,
-.profession {
-  font-size: 35px;
-  line-height: 60px;
-}
-.profession {
-  padding: 20px;
-  text-align: center;
-  color: var(--main-color);
+  margin: 120px 100px;
 }
 
 .name {
-  font-size: 125px;
+  font-size: 120px;
   line-height: 120px;
   font-family: "Birthstone Bounce", cursive;
   color: var(--highlight-color);
 }
 
-.author-photo-cont {
-  background-color: var(--secondary-color);
+.start-button {
+  margin: 50px auto;
+  color: var(--highlight-color);
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 35px;
+  border: 1.3px solid var(--highlight-color);
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 30px;
 }
 
-.author-photo {
-  padding: 120px;
-  border-radius: 50%;
-  opacity: 0.9;
+.work-project button {
+  display: block;
+  margin: 30px auto;
 }
-
 .work-intro {
-  font-size: 50px;
   color: var(--main-color);
   text-align: center;
-  padding: 100px;
+  padding: 70px;
   background-color: var(--primary-color);
 }
 
@@ -196,18 +170,16 @@ footer {
   text-decoration: none;
 }
 
-.about-headline-container {
-  margin: 50px 50px;
+.about-section {
+  margin: 100px 100px;
 }
 
-.about-section {
-  background-color: var(--secondary-color);
-  padding: 75px 50px;
+.profile-photo {
+  border-radius: 15px;
 }
 
 .about-section-container {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 30px 30px;
 }
 
 .contact-container {
