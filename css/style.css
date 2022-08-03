@@ -4,6 +4,14 @@
   --primary-color: #f8f9fa;
   --secondary-color: #e1dfdc;
 }
+nav div a.active {
+  color: var(--highlight-color) !important;
+}
+
+nav .navbar-brand {
+  font-family: "Birthstone Bounce", cursive;
+  font-size: 25px;
+}
 
 p {
   text-align: center;
