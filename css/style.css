@@ -251,3 +251,18 @@ footer {
 .shecodes-link:hover {
   color: var(--highlight-color);
 }
+
+.course-list {
+  list-style: none;
+}
+
+.course-name {
+  font-size: 22px;
+  font-style: italic;
+  text-decoration: none;
+  color: #4e5249;
+}
+
+.course-name:hover {
+  color: #f050a6;
+}
